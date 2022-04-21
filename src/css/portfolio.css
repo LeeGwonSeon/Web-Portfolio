@@ -1,0 +1,92 @@
+/*!
+    Start Bootstrap - Agency Bootstarap Theme
+    (https://startbootsrap.com)
+    Code iicensed under the Apache License v2.0.
+    For details, see
+    http://www,apache.org/licenses/LICENSE-2.0
+*/
+
+body{
+    overflow-x: hidden;
+    font-family: "Robote Slap", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: #1ee2e7;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large{
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #e71e97;
+}
+
+/*버튼 테두리 색상 및 설정*/
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #d517cf;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 700;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+/*버튼 안 색상 및 폰트설정*/
+.btn-primary {
+    border-color: #e71e97;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #d517cf;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #c817d5;
+    color: #fff;
+    background-image: #c817d5;
+}
+
+.btn-primary:active,
+.btn-primary:active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
