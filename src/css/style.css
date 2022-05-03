@@ -5,7 +5,9 @@
 }
 body{
     margin: 0;
+    left: 20px;
     font-family: 'Tapestry';
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -43,6 +45,7 @@ a {
     padding: 8px 12px;
 }
 .navbar {
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,11 +65,13 @@ a {
 }
 
 .headbar__title {
+    margin: 0;
     background-color: rgb(44, 16, 36);
     padding: 10px 20px 20px;
 }
 
 .navbar__name {
+    margin: 0;
     font-size: 140px;
     color: #d466cd;
     position: relative;

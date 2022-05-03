@@ -6,8 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+    
+    <!-- AOS 라이브러리 불러오기-->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./src/js/portfolio.js" defer></script>
     <title>Web-portfolio</title>
+    <div
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+  >
+  </div>
 </head>
 <body>
     <nav class="navbar">
@@ -17,8 +32,8 @@
         </div>
 
         <ul class="navbar__menu">
-            <li><a href="https://github.com/LeeGwonSeon">Githubpage</a></li>
-            <li><a href="https://leegwonseon.github.io/">Blog</a></li>
+            <li><a href="https://github.com/LeeGwonSeon" target=”_blank”>Githubpage</a></li>
+            <li><a href="https://leegwonseon.github.io/" target=”_blank”>Blog</a></li>
             <li><a href="mailto:GwonseonLee_86@outlook.com" title="sendEmail">Email</a></li>
         </ul>
         <ul class="navbar__icons">
@@ -31,10 +46,16 @@
         </a>
     </nav>
     <div class="headbar__title">
-        <h1 class="navbar__name">
+        <h1 class="navbar__name" data-aos="fade-right"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="1000">
             LEE GWONSEON
         </h1>
-        <h1 class="navbar__position">
+        <h1 class="navbar__position" data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="1000">
             WEB DEVELOPER
         </h1>
     </div>
@@ -43,73 +64,171 @@
             Developer
         </div>
         <h3>努力をする人 </h3>
-            <p>今までの職務経験を通じてウェブ開発エンジニアになるために根気強く勉強しています。
-            5年以内にはフルスタック開発においてウェブ開発の専門家になるため、YouTubeclonecode独学しながらGithubページに勉強内容を整理しようと思い、GitBlogページを作りました。
+            <p>今までの職務経験を通じてウェブ開発エンジニアになるために根気強く勉強しています。<br>
+            5年以内にはフルスタック開発においてウェブ開発の専門家になるため、YouTubeclonecode独学しながら<br>
+            Githubページに勉強内容を整理しようと思い、GitBlogページを作りました。<br>
             これからユーザーが使いやすいウェブアプリケーション開発者になります。</p>   
         <h3>新しい環境に挑戦力が強い人</h3>
-            <p>ASSITの運用管理プロジェクトに参加した際、VB.NET自動システム及びRPAプログラミングになっているコードを研究しながら修正できるように知識を高め、3人で行う作業をノートパソコン2台とモニター1台で一人で行い、作業の時間を短くし、評価度を高めました。
+            <p>ASSITの運用管理プロジェクトに参加した際、VB.NET自動システム及びRPAプログラミングになっているコードを<br>
+                研究しながら修正できるように知識を高め、3人で行う作業をノートパソコン2台とモニター1台で一人で行い、<br>
+                作業の時間を短くし、評価度を高めました。<br>
             </p>
     </div>
     <div class="navbar__title">my Skills!</div>
     <ul>
         <h2>front-end</h2>
-        <p class="story">React、ReactNative、Node.js、TS、HTML5、CSS3_SCSS、Javacript、jQuery</p>
+        <li class="story">React</li>
+        <li class="story">ReactNative</li>
+        <li class="story">Node.js</li>
+        <li class="story">TS</li>
+        <li class="story">HTML5</li>
+        <li class="story">CSS3_SCSS</li>
+        <li class="story">Javacript</li>
+        <li class="story">jQuery</li>
     </ul>
     <ul>
         <h2>back-end</h2>
-        <p class="story">Java、JSP</p>
+        <li class="story">Java</li>
+        <li class="story">JSP</li>
     </ul>
     <ul>
         <h2>OS</h2>
-        <p class="story">Outlook、Excel、text</p>
+        <li class="story">Outlook</li>
+        <li class="story">Excel</li>
+        <li class="story">text</li>
     </ul>
 
     <div class="navbar__title">Career!</div>
     <ul>
-        <div>career list1</div>
-        <li>skill list1</li>
-        <li>skill list2</li>
-        <li>skill list3</li>
-        <li>skill list4</li>
-        <div>subject!</div>
-        <p>
-            stories
-        </p>
+        <div>タッチパネル品質評価</div>
+        <li>2022年4月~現在</li><br>
+        <li>【概要】<br>
+            新たに更新されたSysmacStudioシステムバージョンのテスト結果確認
+        </li><br>
+        <li>
+            環境・言語<br>
+            Sysmac Studio <br>
+            Tear Term <br>
+            Excel <br>
+
+        </li><br>
+        <li>
+            役割・規模<br>
+            体 12名<br><br>
+            自チーム 4名
+        </li>
+        <p>［自分の担当］<br>
+            テスト仕様書を見ながらテスト実装及びテスト仕様書修正</p><br>
+    </ul>
+
+    <ul>
+        <div>ASSITの運用管理</div>
+        <li>2021年9月~2022年3月</li><br>
+        <li>【概要】<br>
+            ASSIT開発の結果確認及びテストデータ、SQL修正
+        </li><br>
+        <li>
+            環境・言語<br>
+            SQL <br>
+            Excel <br>
+            McFrame <br>
+
+        </li><br>
+        <li>
+            役割・規模<br>
+            体 80名<br><br>
+            自チーム 6名
+        </li>
+        <p>［自分の担当］<br>
+            テスト実装及びテストエラーをExcelファイルに集計、SQL修正を担当。</p><br>
     </ul>
     <ul>
-        <div>career list2</div>
-        <li>skill list1</li>
-        <li>skill list2</li>
-        <li>skill list3</li>
-        <li>skill list4</li>
-        <div>subject</div>
-        <p>
-            stories
-        </p>
+        <div>ECシステムの開発</div>
+        <li>2020年12月~2021年6月</li><br>
+        <li>【概要】<br>
+            ECシステム開発 · 機能テスト HTML5、CSS3
+        </li><br>
+        <li>
+            環境・言語<br>
+            Vs code<br>
+            Java<br>
+            JavaScript<br>
+            HTML<br>
+
+        </li><br>
+        <li>
+            役割・規模<br>
+            体 80名<br><br>
+            自チーム 6名
+        </li>
+        <p>［自分の担当］<br>
+            テスト実装及びテストエラーをExcelファイルに集計、SQL修正を担当。</p><br>
     </ul>
     <ul>
-        <div>career list3</div>
-        <li>skill list1</li>
-        <li>skill list2</li>
-        <li>skill list3</li>
-        <li>skill list4</li>
-        <div>subject</div>
-        <p>
-            stories
-        </p>
+        <div>業務改革データ統合フラットフォーム開発</div>
+        <li>2020年1月~2020年4月</li><br>
+        <li>【概要】<br>
+            拠点(工場)の製造ラインの機械やセンサーから収集された生データを管理システムにて呼び出せるように、<br>
+            業務別のニーズに合わせたデータの統合・変換を行う処理プロトタイプを開発
+        </li><br>
+        <li>
+            環境・言語<br>
+            SQL<br>
+            Command<br>
+            Script<br>
+        </li><br>
+        <li>
+            役割・規模<br>
+            体 24名<br><br>
+            自チーム 4名
+        </li>
+        <p>［自分の担当］<br>
+            基本設計書を参考し、詳細設計書とテストデータおよびテスト仕様書作成して実装から総合テストまで担当。</p><br>
     </ul>
     <ul>
-        <div>career list4</div>
-        <li>skill list1</li>
-        <li>skill list2</li>
-        <li>skill list3</li>
-        <li>skill list4</li>
-        <div>subject</div>
-        <p>
-            story
-        </p>
+        <div>WEBシステム開発</div>
+        <li>2019年7月~2019年12月</li><br>
+        <li>【概要】<br>
+            固定資産分割テストデータ作成および結果確認
+        </li><br>
+        <li>
+            環境・言語<br>
+            Windows<br>
+            専用ツール<br>
+        </li><br>
+        <li>
+            役割・規模<br>
+            体 42名<br><br>
+            自チーム 4名
+        </li>
+        <p>［自分の担当］<br>
+            自動システムのテスト実装、結果確認を担当。</p><br>
+    </ul>
+    <ul>
+        <div>システム運用管理</div>
+        <li>2019年3月~2019年6月</li><br>
+        <li>【概要】<br>
+            既存決算処理システムを新しく構築された決算処理システムの結果テスト。
+        </li><br>
+        <li>
+            環境・言語<br>
+            MySQL<br>
+            Windows<br>
+            専用ツール<br>
+        </li><br>
+        <li>
+            役割・規模<br>
+            体 36名<br><br>
+            自チーム 5名
+        </li>
+        <p>［自分の担当］<br>
+            決算処理システムのテスト実装、結果確認を担当。</p><br>
     </ul>
 
     <ul class="navbar__title">Projects!</ul>
+    
+    <script>
+        AOS.init(); // 자바스크립트로 init()을 해야 사용
+    </script>
 </body>
 </html>
