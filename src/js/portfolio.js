@@ -3,17 +3,9 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 
 
-const toggleBtn = document.querySelector('.navbar__toogleBtn');
-const menu = document.querySelector('.navbar__menu');
-const icons = document.querySelector('.navbar__icons');
+
 const name = document.querySelector('.navbar__name');
 
-toggleBtn.addEventListener('click', () => {
-    menu.classList.toggle('active');
-    icons.classList.toggle('active');
-});
-
-name.addEventListener('fullscreenchange')
 AOS.init();
 
 // You can also pass an optional settings object
