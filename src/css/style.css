@@ -50,11 +50,48 @@ a {
     padding: 8px 12px;
 }
 
+.navbar a{
+    padding: 0 12px;
+}
+
 .navbar__toogleBtn {
     display: none;
     position: absolute;
     right: 32px;
     font-size: 24px;
+}
+
+.headbar__title {
+    background-color: rgb(44, 16, 36);
+    padding: 10px 20px 20px;
+}
+
+.navbar__name {
+    font-size: 140px;
+    color: #d466cd;
+    position: relative;
+    left: 50px;
+}
+
+.navbar__position {
+    font-size: 140px;
+    color: #d466cd;
+    position: relative;
+    right: -250px;
+}
+
+.navbar__title {
+    padding: 0 15px 12px;
+    font-size: 50px;
+}
+.navbar__title #email {
+    color: #222;
+}
+h2 {
+    font-size: 30px;
+}
+.story {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
