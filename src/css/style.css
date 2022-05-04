@@ -19,12 +19,13 @@ a {
 .navbar__logo{
     font-size: 24px;
     color: var(--text-color);
+    fill: coral;
 }
 .navbar__logo svg{
     color: var(--text-color);
 }
 
-.navbar__menu, .skills1, .skills2, .skills3 {
+.navbar__menu, .skills1, .skills2, .skills3, .languages__list {
     display: flex;
     list-style: none;
     padding-left: 0;
@@ -67,6 +68,12 @@ a {
 .navbar a{
     padding: 0 12px;
 }
+#navbar__twitter, #navbar__facebook {
+    fill: #f98323;
+}
+#navbar__twitter:hover, #navbar__facebook:hover {
+    fill: #df42f0;
+}
 
 .headbar__developer {
     color: var(--font-color);
@@ -100,6 +107,9 @@ a {
     color: #d466cd;
     position: relative;
     margin: 60px 0 0 60px;
+}
+.headbar__name:hover, .headbar__position:hover {
+    color: #fff;
 }
 
 .headbar__position {
@@ -157,7 +167,7 @@ a {
 
 .skills__title, .developer__title{
     padding: 0 15px 12px;
-    font-size: 60px;
+    font-size: 100px;
     color: #F7F7F7;
     text-shadow: 3px 3px 5px #F2FA5A;
     font-style: unset;
@@ -165,15 +175,15 @@ a {
 }
 .project__title {
     padding: 0 15px 12px;
-    font-size: 60px;
+    font-size: 80px;
     color: #F7F7F7;
-    text-shadow: 3px 3px 5px #ea5959;
+    text-shadow: 3px 3px 5px #06FF00;
     font-style: unset;
     font-weight: 700;
 }
 .stories__title {
     padding: 0 15px 12px;
-    font-size: 70px;
+    font-size: 140px;
     color: #9805b5;
     text-shadow: 3px 3px 5px #ea5959;
     font-style: unset;
@@ -184,7 +194,7 @@ a {
     padding: 10px 20px 20px;
     font-size: 20px;
     background-color: #222;
-    height: 450px;
+    height: 550px;
 }
 .skills__subtitle1 {
     padding: 0 15px 0;
@@ -286,6 +296,57 @@ a {
 #story2, #story4, #story6 {
     margin-left: 760px;
 }
+.languages__list {
+    margin: 40px 20px 0 60px;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    border: 3px solid #06FF00;
+    border-radius: 30px;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+    width: 880px;
+    height: 400px;
+}
+#YoutubeClone__title{
+    position: absolute;
+    color: #222;
+    margin: -50px 0 0 -60px;
+    font-size: 40px;
+    text-align: center;
+    transform: rotate(-5deg);
+    border: 1px solid #06FF00;
+    background-color: #06FF00;
+    border-radius: 10px;
+    height: 45px;
+    width: 400px;
+}
+#YoutubeClone__date {
+    position: absolute;
+    margin: -35px 0 0 600px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #222;
+    width: 260px;
+}
+.language {
+    margin: 10px 10px;
+    padding: 3px 5px;
+    color: black;
+    background-color: #fff;
+    border-radius: 8px;
+}
+#YoutubeClone__icon {
+ margin: -24px 0 0 860px ;
+ background-color: #222;
+ fill: #06FF00;
+}
+#YoutubeClone__icon:hover{
+    fill: #fff;
+}
 .navbar__title #email {
     color: #222;
 }
@@ -303,7 +364,8 @@ h2 {
         padding: 8px 24px;
     }
 
-    .navbar__menu {
+    .navbar__menu, .headbar__developer, .skills__background, .career__background, .project__background
+    .footer__background{
         display: none;
         flex-direction: column;
         align-items: center;
