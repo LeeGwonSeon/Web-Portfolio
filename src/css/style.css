@@ -25,12 +25,16 @@ a {
     color: var(--text-color);
 }
 
-.navbar__menu, .skills1, .skills2, .skills3, .languages__list, .footer__me {
+.navbar__menu, .skills1, .skills2, .skills3, .languages__list li, .footer__me {
     display: flex;
     list-style: none;
     padding-left: 0;
 }
-
+ #YoutubeClone__story {
+     position: absolute;
+     margin: 120px 0 0 20px;
+     font-size: 20px;
+ }
 .story {
     display: flex;
 }
@@ -307,7 +311,7 @@ a {
     flex-wrap: wrap;
     overflow: auto;
     width: 880px;
-    height: 400px;
+    height: 300px;
 }
 #YoutubeClone__title{
     position: absolute;
@@ -374,13 +378,13 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-    .navbar {
+    body, .footer__background {
         flex-direction: column;
         align-items: flex-start;
-        padding: 8px 24px;
+        padding: 2px 15px;
     }
 
-    .navbar__menu, .headbar__developer, .skills__background, .career__background, .project__background
+    .navbar__menu, .headbar__developer, .skills__background, .career__background, .languages__list
     .footer__background{
         display: none;
         flex-direction: column;
