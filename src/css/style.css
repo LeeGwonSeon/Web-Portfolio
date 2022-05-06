@@ -96,6 +96,7 @@ a {
 
 .footer__background {
     color: #fff;
+    overflow: hidden;
 }
 
 
