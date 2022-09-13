@@ -4,6 +4,8 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "./routes/Home";
+import HomeD from "./scss_css/Home.module.css";
+
 
 function App() {
   return (
@@ -11,9 +13,6 @@ function App() {
       <Router>
         <Switch>
           <Route path="/">
-            <div>
-              <h1>Hello This is my</h1>
-            </div>
             <Home />
           </Route>
         </Switch>
