@@ -2,15 +2,20 @@ function AboutMe (){
 
     return (
     <div className="aboutme">
-        <div className="aboutme__title">About me</div>
+        <h1 className="title">About me</h1>
         <div className="aboutme__main">
-            <div className="aboutme__introduce">
-                <ul>
-                    <li className="aboutme__pic"></li>
-                    <li>お名前</li>
-                    <li>年齢</li>
-                    <li>趣味</li>
-                </ul>
+            <div>
+                <div className="aboutme__pic">
+                    <img src="/img/KakaoTalk_20220730_112627735.jpg"/>
+                    <img src="/img/profile.jpg"/>
+                </div>
+                <div className="aboutme__introduce">
+                    <ul>
+                        <li>お名前</li>
+                        <li>年齢</li>
+                        <li>趣味</li>
+                    </ul>
+                </div>
             </div>
             <div className="aboutme__story">
                 <p>
