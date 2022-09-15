@@ -6,8 +6,8 @@ function AboutMe (){
         <div className="aboutme__main">
             <div>
                 <div className="aboutme__pic">
-                    <img src="/img/KakaoTalk_20220730_112627735.jpg"/>
-                    <img src="/img/profile.jpg"/>
+                    <img src="./img/KakaoTalk_20220730_112627735.jpg"/>
+                    <img src="./img/profile.jpg"/>
                 </div>
                 <div className="aboutme__introduce">
                     <ul>

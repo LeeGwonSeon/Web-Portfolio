@@ -2,26 +2,21 @@ import AboutMe from "../components/AboutMe";
 import Contact from "../components/Contact";
 import Project from "../components/Project";
 import Skills from "../components/Skills";
+import Styles from "../scss_css/Home.module.css";
 
 
 function Home () {
 
     return (
         <div>
-            <div className="home">
-                <div className="home__portfolio">
-                    <div>Lee Gownseon Portfolio</div>
-                </div>
+            <div className={Styles.home}>
+                <div>PORTFOLIO</div>
             </div>
-            <nav className="nav">
-                <div className="nav__list">
-                    <ul>
-                        <li>About me</li>
-                        <li>Skills</li>
-                        <li>Project</li>
-                    </ul>
-                </div>
-            </nav>
+            <div className={Styles.header}>
+                <div className={Styles.header__item}><a href="#">About me</a></div>
+                <div className={Styles.header__item}><a href="#">Skills</a></div>
+                <div className={Styles.header__item}><a href="#">Project</a></div>
+            </div>
                 <AboutMe />
                 <Skills />
                 <Project />
